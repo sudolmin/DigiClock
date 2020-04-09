@@ -1,7 +1,7 @@
 import time
 from tkinter import *
 from tkinter.font import Font
-import random
+
 class clock:
                 
         def __init__(self):
@@ -16,7 +16,7 @@ class clock:
                 self.root=Tk()
                 self.root.resizable(False,False)
                 self.root.title("Digital Clock")
-                self.root.iconbitmap('clo.ico')
+                self.root.iconbitmap('clock_icon.ico')
 
                 self.fr = Frame(self.root, bd = 10,height =300,
                            width=1000,
